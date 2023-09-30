@@ -1,15 +1,6 @@
-# EcoTech
-
 # Ecoverse
 
 Create an AI ecosystem that can collect, handle, and evaluate a variety of environmental data, including information on climate patterns, deforestation rates, air quality, and water pollution. The system should provide real-time insights and visuals to enable a thorough understanding of the situation of the environment right now.
-
-
-
-
-## Documentation
-
-[Documentation](https://linktodocumentation)
 
 
 ## Table of Content

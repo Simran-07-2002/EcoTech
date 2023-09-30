@@ -32,7 +32,7 @@ Begin by downloading the code for Enviroverse from our GitHub repository. You ca
 Navigate to the directory where you've downloaded or cloned the code. Open a terminal or command prompt in that directory. Run the following command to start the Flask application:
 
 ### 3. Register on the website
-Visit http://localhost:5000 in your web browser once it is open. The Enviroverse main page should appear. You might need to register for an account and log in in order to access specific features and environmental indices. To finish the registration procedure, adhere to the on-screen directions.
+Visit e.g. http://localhost:5000, this type of webapp url provided by running app.py on your system after downloading the whole code, in your web browser once it is open. The Enviroverse main page should appear. You might need to register for an account and log in in order to access specific features and environmental indices. To finish the registration procedure, adhere to the on-screen directions.
 
 ### 4. Look into environmental indicators
 After logging in, take the following actions to examine different environmental indices:

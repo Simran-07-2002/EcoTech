@@ -1,0 +1,94 @@
+<!-- JAVASCRIPT/JQUERY -->
+
+<script type=text/javascript>
+    $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+  </script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+
+    // if (localStorage.getItem("accessFlag") == 1) {
+    //     document.getElementById('logoutButton').style.display = 'block';
+
+    // }
+    // else if (localStorage.getItem("accessFlag") == 0) {
+    //     document.getElementById('logoutButton').style.display = 'block';
+
+    // }
+
+
+    // $(function () {
+    //     $('a#loginButtonHeader').bind('click', function () {
+    //         alert("this is query for click button")
+    //         $.getJSON($SCRIPT_ROOT + 'sampleAttendanceModel', {
+
+    //         }, function (data) {
+    //             $("#loginButtonHeader").text(data.result);
+    //         });
+    //         return false;
+    //     });
+    // }
+    // );
+
+</script> 
+
+
+
+<div class="container-fluid px-0 "  >
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg"  style="background-color: #040D12; text-decoration: rgb(254, 255, 255);">
+        <div class="container">
+            <div class="col-6 col-sm-4" >
+                <a class="navbar-brand" href="#">
+                    <img src="/static/Photos/Logo.png" alt="logo" width="16%" height="10%" />
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{ url_for('home') }}" style="color: aliceblue;" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}" style="color: aliceblue;">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="{{ url_for('air') }}" >Air</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ url_for('water') }}" >Water</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ url_for('deforestation') }}" s>Deforestation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ url_for('climate') }}" >Climate</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                
+                <div>
+                    <a href="{{ url_for('login') }}" class="text-decoration-none" id="loginButtonHeader" >
+                        <button class="btn btn-outline-light d-flex align-items-center justify-content-center gap-2" style="color: aliceblue;">
+                            <i class="fa-solid fa-arrow-right-to-bracket" style="color: aliceblue;"></i> Login
+                        </button>
+                        
+                        
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+    </nav>
+</div>

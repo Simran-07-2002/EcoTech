@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoverse</title>
+
+    <!-- Bootstrap cdn (Content delivery network) link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap JS cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- linking external CSS file -->
+    <link rel="stylesheet" href="/static/Css/aboutUs.css">
+
+    <!-- favicon icon -->
+    <script src="https://kit.fontawesome.com/16ca68dc49.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico?v=2">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+        
+    </head>
+    <body>
+         <!-- header file including -->
+         {% include 'header.html' %}
+              
+              <!-- About us starting -->
+        <section class="aboutUs" id="about us">
+            <div class="container-fluid text-center " id="AboutUsStarting">
+                <h2 class="text-center my-2 ">About Us</h2>
+                <div class="row text-center">
+                    <div class="col-lg-6 align-items-center justify-content-center d-flex">
+                        <h1 class="" id="aboutUsHeading">The environment is our silent partner in every breath we take. Let's ensure it's a healthy one."</h1>
+                        
+                    </div>
+                    <div class="col-lg-6 pt-5">
+                        <img src="https://www.salarybox.in/wp-content/uploads/2023/04/Employee-Management-Discussion.webp" class="container-fluid aboutUsImage " alt="workingWnvironment" style="height: 75%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="mission pb-5" id="mission">
+            <div class="container text-center">
+                <h2 class="text-center pb-4">Our Mission</h2>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <!-- 1st card -->
+                    <div class="col">
+                      <div class="card">
+                          <h1><i class="fa-solid fa-clipboard-user"></i></h1>
+                        
+                        <div class="card-body">
+                            
+                            <h5 class="card-title">Improving Air Quality</h5>
+                          <p class="card-text">
+                            Enviroverse initiative is to reduce air pollution in their operations and communities. They invest in cleaner energy, eco-friendly tech, and transportation solutions. Regular air quality monitoring guides their efforts.<p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 2nd card -->
+                    <div class="col">
+                      <div class="card">
+                          <h1><i class="fa-brands fa-twitch"></i></h1>
+                        
+                        <div class="card-body">
+                          <h5 class="card-title"> Preserving Water Quality</h5>
+                          <p class="card-text">
+                            We prioritize clean water. Thus its essential to  manage water use, treat wastewater responsibly, and prevent contamination. Monitoring ensures compliance and resource sustainability.</p>
+
+                                
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- 3rd  card -->
+                    <div class="col">
+                        <div class="card">
+                            
+                        <div class="card-body">
+                        <h1><i class="fa-solid fa-file-shield"></i></h1>
+                          <h5 class="card-title"> Combatting Deforestation:</h5>
+                          <p class="card-text">
+                             Enviroverse is dedicated to forest conservation. We all should even support reforestation, sustainable sourcing, and transparent reporting. We aim to make a lasting impact on global forest preservation.
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    
+                    <!--4th card  -->
+                    <div class="col">
+                      <div class="card">
+                        <h1><i class="fa-brands fa-shirtsinbulk"></i></h1>
+                        <div class="card-body">
+                          <h5 class="card-title">Mitigating Climate Change</h5>
+                          <p class="card-text">  
+                            Climate action is central to many companies. They reduce emissions, use renewable energy, and support green initiatives. Enviroverse mission is to be part of the climate solution.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+        </section>
+        
+        <!-- Footer -->
+    {% include 'footer.html' %}
+
+    </body>
+</html>

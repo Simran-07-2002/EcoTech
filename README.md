@@ -89,10 +89,26 @@ Tableau Dashboard: Tableau is used to create engaging and educational dashboard
 Hosting Platform: Our "Enviroverse" project is hosted on the Github platform.
 
 ### APIs: 
-- API Integrations: To link external APIs with the dashboard and deliver real-time insights for environmental indices, we need to have a Tableau subscription or you can access it using your work/school mail to get free license.
+- API Integrations: To link external APIs with the dashboard and deliver real-time insights for environmental indices, we need to have a Tableau subscription or you can access it using your work/school mail to get free license. 
 
 ### Version Control:
-Version control is handled through GitHub and Git. Describe the process used to maintain version control, whether it uses Git, GitHub, or another system. Include a URL to the GitHub repository for your project.
+Version Control (#)
+
+Strong version control is used in "Enviroverse" via Git and GitHub, ensuring a methodical approach to tracking changes, working on the project, and preserving code integrity. This makes it easier for team members and contributors to work together effectively. 
+
+GitHub ###
+
+Our Git repository is hosted on the website GitHub. Git's capabilities are increased by it by offering:
+
+- A central repository where contributors can fork, clone, and work together on a project.
+- Pull requests and problems for tracking conversations, bug reports, and feature requests.
+- Workflows for Continuous Deployment (CD) and Continuous Integration (CI) that automate the testing and deployment procedures.
+GitHub Repository: ###
+
+The place where the source code and associated assets are kept and managed is our project's GitHub repository. The repository is accessible at the following URL:
+
+the following URL: github.com/Simran-07-2002/EcoTech
+
 
 
 

@@ -20,6 +20,29 @@ Create an AI ecosystem that can collect, handle, and evaluate a variety of envir
 
 
 ## Getting Started
+
+### 1. Download the Code
+
+Begin by downloading the code for Enviroverse from our GitHub repository. You can do this by clicking the "Download ZIP" button on our repository page or by using Git to clone the repository to your local machine.
+
+**GitHub Repository Link:** https://github.com/Simran-07-2002/EcoTech
+
+### 2. Run `app.py`
+
+Navigate to the directory where you've downloaded or cloned the code. Open a terminal or command prompt in that directory. Run the following command to start the Flask application:
+
+### 3. Register on the website
+Visit http://localhost:5000 in your web browser once it is open. The Enviroverse main page should appear. You might need to register for an account and log in in order to access specific features and environmental indices. To finish the registration procedure, adhere to the on-screen directions.
+
+### 4. Look into environmental indicators
+After logging in, take the following actions to examine different environmental indices:
+
+- Header Navigation: Go to the header area of the website, where a dropdown menu labeled "Features" can be found.
+
+Choose an environmental index: From the "Features" drop-down menu, choose the particular environmental indicator you want to track, such as "Air Quality," "Water Quality," "Deforestation Rates," or "Climate Patterns."
+
+After you've chosen an environmental index, the website will give you on-screen directions that you should follow.
+
 ## Usage/Examples
 
 Welcome to "Enviroverse", your hub for monitoring and analyzing environmental indices. Here's how you can make the most of our platform:
@@ -97,6 +120,7 @@ https://www.kaggle.com/datasets/konradb/deforestation-dataset
 Data on Climate: 
 
 - Climate Data: Based on surface temperature, we utilize these datasets to examine historical climate trends and patterns for various regions.
+  
 https://climatedata.imf.org/datasets/4063314923d74187be9596f10d034914/explore
 
 
